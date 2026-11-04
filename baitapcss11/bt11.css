@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box-ngoai{
+    width: 100%;
+    height: 450px;
+    background-color: #d3ffe1;
+}
