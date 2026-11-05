@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+h2 {
+  font-size: 18px;
+}
+.hop-ngoai {
+  background-color: #dfdfdf;
+  width: 800px;
+  height: 400px;
+  padding: 10px;
+}
+.thanh {
+  display: flex;
+  list-style: none;
+}
+.thanh li {
+  padding: 10px;
+}
+li {
+  list-style: none;
+}
+.thanh > li:first-child {
+  color: #27e787f2;
+}
+.hop-trong {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+.hop-trai {
+  flex: 1;
+  width: 200px;
+}
+.hop-phai {
+  flex: 2;
+}
+.hop-trai img {
+  width: 200px;
+  height: auto;
+}
+.hop-phai img {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: auto;
+}
